@@ -55,7 +55,7 @@ const VideoCarousel = () => {
     if (span[videoId]) {
       // animation to move the indicator
       let anim = gsap.to(span[videoId], {
-        onUpdate: () => {
+        onUpdate: () => { 
           // get the progress of the video
           const progress = Math.ceil(anim.progress() * 100);
 

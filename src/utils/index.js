@@ -28,8 +28,16 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
+import a19 from "/assets/images/a19.jpg";
 
+
+ import Pro from "/assets/videos/Pro.mp4"
+import pubg from "/assets/videos/pubg.mp4";
+
+export const a19Img = a19;
+export const pubgVideo = pubg;
 export const heroVideo = hmv;
+export const pro17 = Pro;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;

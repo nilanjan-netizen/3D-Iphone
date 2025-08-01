@@ -6,18 +6,25 @@ const Footer = () => {
     <footer className="py-5 sm:px-10 px-5">
       <div className="screen-max-width">
         <div>
-          <p className="font-semibold text-gray text-xs">
-            More ways to shop: {' '}
-            <span className="underline text-blue">
-            Find an Apple Store {' '}
-            </span>
-            or {' '}
-            <span className="underline text-blue">
-            other retailer
-            </span>{' '}
-            near you.
+          <p className="font-semibold text-blue text-3xl">
+         
+
+            
+  More ways to shop:{' '}
+  <span className="underline text-blue-600 text-blue-800 transition-colors">
+    <a href="https://www.apple.com/in/retail/" target='blank'>Find an Apple Store</a>
+  </span>{' '}
+  or{' '}
+  <span className="underline text-blue-600 text-blue-800 transition-colors">
+    <a href="https://www.google.com/maps" target='blank'>other retailer</a>
+  </span>{' '}
+  near you.
+
+
+
+
           </p>
-          <p className="font-semibold text-gray text-xs">
+          <p className="font-semibold text-blue text-xl">
             Or call 000800-040-1966
           </p>
         </div>
@@ -25,10 +32,10 @@ const Footer = () => {
         <div className="bg-neutral-700 my-5 h-[1px] w-full" />
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="font-semibold text-gray text-xs">Copright @ 2024 Apple Inc. All rights reserved.</p>
+          <p className="font-semibold text-gray text-xl">Copright @ 2025 Apple Inc. All rights reserved.</p>
           <div className="flex">
             {footerLinks.map((link, i) => (
-              <p key={link} className="font-semibold text-gray text-xs">
+              <p key={link} className="font-semibold text-gray text-2xl">
                 {link}{' '}
                 {i !== footerLinks.length - 1 && (
                   <span className="mx-2"> | </span>
